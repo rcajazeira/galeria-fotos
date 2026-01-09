@@ -83,5 +83,10 @@ GitHub: @rcajazeira
 
 Projeto: Galeria de Fotos.
 
+📄 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+
+<div align="center"> <sub>Desenvolvido com ❤️ para o exercício de programação 2026/1</sub> </div> ```
+
 
 
