@@ -74,6 +74,7 @@ Pressione Enter ou clique no botão de lupa
 Limpar busca: Clique no botão "Limpar busca" para ver todas as fotos novamente
 
 Interagir com fotos: Passe o mouse sobre qualquer foto para ver o efeito de hover
+```
 
 👨‍💻 Autor
 Rafael Cajazeira - Desenvolvedor Full Stack
