@@ -4,56 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Fotos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Galeria de Fotos</h1>
-        <nav>
-            <ul>
-                <li><a href="#fotos">Fotos</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <h1><i class="fas fa-camera"></i> Galeria de Fotos</h1>
+            <p class="subtitle">Explore belas imagens de diversos temas</p>
+        </div>
     </header>
 
-    <main id="fotos">
-        <section class="galeria">
-            <!-- Aqui serão adicionadas as fotos -->
-        </section>
-
-        <!-- Botões de navegação -->
-        <div class="botoes-navegacao">
-            <button id="botao-anterior">Anterior</button>
-            <button id="botao-proximo">Próximo</button>
+    <!-- Barra de Busca -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    placeholder="Pesquise por nome da foto (ex: praia, natureza, cidade)..."
+                    aria-label="Campo de busca de fotos"
+                >
+                <button id="search-btn" aria-label="Buscar fotos">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="search-info">
+                    <span id="photo-count">10 fotos disponíveis</span>
+                    <button id="clear-search" class="clear-btn">Limpar busca</button>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!-- Indicador de página -->
-        <div class="indicador-pagina"></div>
+    <!-- Área Principal -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Mensagem quando não encontrar resultados -->
+            <div id="no-results" class="no-results hidden">
+                <i class="far fa-folder-open"></i>
+                <h2>Nenhuma foto encontrada</h2>
+                <p>Tente usar outras palavras-chave ou limpe a busca para ver todas as fotos.</p>
+            </div>
 
-        <!-- Modal para exibir fotos em tamanho grande -->
-        <div id="modal" class="modal">
-            <span class="fechar">&times;</span>
-            <img class="imagem-modal" src="" alt="">
-            <div class="descricao-modal"></div>
+            <!-- Grid de Fotos -->
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- As fotos serão inseridas aqui via JavaScript -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Carregando galeria...</p>
+                </div>
+            </div>
         </div>
-
-        <!-- Formulário para adicionar novas fotos -->
-        <form id="formulario-foto" enctype="multipart/form-data">
-            <!-- Campos do formulário -->
-            <!-- Exemplo: input para upload de imagem e textarea para descrição -->
-            <!-- Adicione os campos conforme necessário -->
-        </form>
-
     </main>
 
-    <!-- Rodapé da página -->
-    <footer id="contato">
-        &copy; 2023 Galeria de Fotos. Todos os direitos reservados.
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p><i class="fas fa-code"></i> Desenvolvido com HTML, CSS e JavaScript</p>
+                    <p><i class="fas fa-images"></i> Fotos por <a href="https://www.pexels.com" target="_blank">Pexels</a></p>
+                </div>
+                <div class="copyright">
+                    <p>© 2026 Galeria de Fotos. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- Scripts JavaScript -->
-    <!-- Adicione os scripts necessários aqui -->
-
+    <!-- Scripts -->
+    <script src="src/js/app.js"></script>
 </body>
+</html>
