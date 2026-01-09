@@ -78,6 +78,7 @@ galeria-fotos/
 │ ├── musica.jpg
 │ └── praia.jpg
 └── server.js # Servidor local opcional
+```
 
 text
 
