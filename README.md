@@ -54,32 +54,6 @@ Uma aplicação web responsiva de galeria de fotos com funcionalidades de busca 
     *   Vá para `http://localhost:8000` (ou porta configurada)
     *   OU abra diretamente `index.html`
 
-## 📁 Estrutura do Projeto
-galeria-fotos/
-├── index.html # Página principal
-├── README.md # Esta documentação
-├── LICENSE # Licença MIT
-├── .gitignore # Arquivos ignorados pelo Git
-│
-├── src/
-│ ├── css/
-│ │ └── styles.css # Estilos principais
-│ ├── js/
-│ │ └── app.js # Lógica JavaScript
-│ └── images/ # Imagens da galeria (10+)
-│ ├── bicicleta.jpg
-│ ├── cachorro.jpg
-│ ├── cafe.jpg
-│ ├── cidade-noturna.jpg
-│ ├── computador.jpg
-│ ├── flores.jpg
-│ ├── livros.jpg
-│ ├── montanha.jpg
-│ ├── musica.jpg
-│ └── praia.jpg
-└── server.js # Servidor local opcional
-```
-
 text
 
 ## 🔍 Como Usar a Galeria
