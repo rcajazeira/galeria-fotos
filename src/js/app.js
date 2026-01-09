@@ -129,7 +129,7 @@ function filterPhotos(searchTerm) {
     }
     
     return photos.filter(photo => {
-    return photo.title.toLowerCase().includes(term); 
+    return photo.title.toLowerCase().includes(term); 1
 });
 
 }
