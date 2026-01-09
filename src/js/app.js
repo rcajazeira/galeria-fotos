@@ -129,9 +129,9 @@ function filterPhotos(searchTerm) {
     }
     
     return photos.filter(photo => {
-        return photo.title.toLowerCase().includes(term) ||
-               photo.tags.some(tag => tag.toLowerCase().includes(term));
-    });
+    return photo.title.toLowerCase().includes(term); 
+});
+
 }
 
 // Atualiza contador de fotos
