@@ -1,3 +1,25 @@
+markdown
+# 🖼️ Galeria de Fotos Interativa
+
+Uma aplicação web responsiva de galeria de fotos com funcionalidades de busca em tempo real, desenvolvida como exercício de programação.
+
+## ✨ Funcionalidades
+
+*   ✅ **Layout Responsivo** - Adapta-se a diferentes tamanhos de tela
+*   ✅ **Grid de Fotos** - Exibição organizada em cards com efeitos visuais
+*   ✅ **Busca em Tempo Real** - Filtra fotos conforme digitação
+*   ✅ **Efeitos de Hover** - Animações ao passar o mouse sobre as fotos
+*   ✅ **Feedback Visual** - Mensagem quando nenhuma foto é encontrada
+*   ✅ **Interface Intuitiva** - Design moderno e amigável
+
+## 🛠️ Tecnologias Utilizadas
+
+*   **HTML5** - Estrutura semântica da página
+*   **CSS3** - Estilização com Grid, Flexbox e animações
+*   **JavaScript (ES6+)** - Lógica interativa e manipulação DOM
+*   **Font Awesome** - Ícones para interface
+*   **Google Fonts** - Tipografia moderna (Poppins)
+
 ## 🚀 Como Executar Localmente
 
 ### Pré-requisitos
@@ -33,7 +55,6 @@
     *   OU abra diretamente `index.html`
 
 ## 📁 Estrutura do Projeto
-
 galeria-fotos/
 ├── index.html # Página principal
 ├── README.md # Esta documentação
@@ -58,6 +79,7 @@ galeria-fotos/
 │ └── praia.jpg
 └── server.js # Servidor local opcional
 
+text
 
 ## 🔍 Como Usar a Galeria
 
