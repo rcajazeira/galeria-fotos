@@ -27,31 +27,31 @@ const photos = [
     {
         id: 5,
         title: "Computador Moderno",
-        filename: "computador.jpg",
+        filename: "Computador.jpg",
         tags: ["tecnologia", "computador", "trabalho", "escritório"]
     },
     {
         id: 6,
         title: "Cachorro Descansando",
-        filename: "cachorro.jpg",
+        filename: "Cachorro.jpg",
         tags: ["animal", "cachorro", "pet", "descansando"]
     },
     {
         id: 7,
         title: "Flores e folhas",
-        filename: "flores.jpg",
+        filename: "Flores.jpg",
         tags: ["flores", "natureza", "folha", "colorido"]
     },
     {
         id: 8,
         title: "Pilha de Livros",
-        filename: "livros.jpg",
+        filename: "Livros.jpg",
         tags: ["livros", "leitura", "conhecimento", "biblioteca"]
     },
     {
         id: 9,
         title: "Bicicleta Vintage",
-        filename: "bicicleta.jpg",
+        filename: "Bicicleta.jpg",
         tags: ["bicicleta", "transporte", "vintage", "ciclista"]
     },
     {
